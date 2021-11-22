@@ -1,0 +1,47 @@
+body{
+
+}
+.title{
+    border: 1px solid black;
+}
+.title h1{
+    text-align: center;
+}
+.subtitle{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.gif{
+    border: 1px solid black;
+    min-width: 92px;
+    min-height: 55px;
+    padding-top: 37px;
+    text-align:center;
+    background-color: rgb(91, 187, 107);
+}
+.content{
+    border: 1px solid black;
+    padding: 70px;
+    display: flex;
+    justify-content:center;
+}
+.grafika{
+    padding: 10px;
+    border: 1px solid black;
+    min-width: 45%;
+    min-height: 160px;
+    text-align:center;
+}
+.opis{
+    border: 1px solid black;
+    min-width: 30%;
+    min-height: 160px;
+    text-align:center;
+}
+.footer{
+    border: 1px solid black;
+    padding: 15px;
+    text-align:right;
+}
