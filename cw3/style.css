@@ -70,10 +70,10 @@
     min-height: 8vh;
     background-color:rgb(238, 99, 89)
 }
-.chart2 div:nth-child(1){width:27rem;}
-.chart2 div:nth-child(2){width:30rem;}
-.chart2 div:nth-child(3){width:35rem;}
-.chart2 div:nth-child(4){width:40rem;}
+.chart2 div:nth-child(1){width:22rem;}
+.chart2 div:nth-child(2){width:25rem;}
+.chart2 div:nth-child(3){width:30rem;}
+.chart2 div:nth-child(4){width:35rem;}
 
 .footer{
     padding-top: 1cm;
