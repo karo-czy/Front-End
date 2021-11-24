@@ -1,0 +1,85 @@
+.root{
+    font-size: 18px;
+}
+.sprite{
+    border:2px solid rgb(0, 0, 0);
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/sprites.jpg?raw=true);
+    width:90px;
+    height:90px;
+}
+.sprite:hover{
+    background-position: 0 -90px;
+}
+.sprite:active{
+    background-position: 0 -180px;
+}
+.nav{
+    border: 1px solid rgb(0, 0, 0);
+}
+.button{
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+}
+.button div{
+    border: 1px solid black;
+    padding: 5px;
+}
+.header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0 15px 0px
+}
+.tekst{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-left: 1cm;
+}
+.ramka{
+    border: 1px solid black;
+}
+.chart1,.chart2{
+    border:2px solid rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(164, 177, 141);
+    margin: 1cm;
+}
+.chart1{
+    padding-bottom: 25px;
+}
+.chart1 div{
+    border:2px solid #000;
+    min-width: 10%;
+    background-color:rgb(235, 164, 106)
+}
+.chart1 div:nth-child(1){height:15rem;}
+.chart1 div:nth-child(2){height:12rem;}
+.chart1 div:nth-child(3){height:10rem;}
+.chart1 div:nth-child(4){height:6rem;}
+.chart1 div:nth-child(5){height:4rem;}
+
+.chart2{
+    flex-direction: column;
+    min-height:70vh;
+}
+.chart2 div{
+    border:2px solid #000;
+    min-height: 8vh;
+    background-color:rgb(238, 99, 89)
+}
+.chart2 div:nth-child(1){width:27rem;}
+.chart2 div:nth-child(2){width:30rem;}
+.chart2 div:nth-child(3){width:35rem;}
+.chart2 div:nth-child(4){width:40rem;}
+
+.footer{
+    padding-top: 1cm;
+}
+.em{
+    font-size:2em;
+    float:right;
+    color: red;
+}
