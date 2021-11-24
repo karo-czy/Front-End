@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     user-select: none; 
+    text-align: center;
 }
 .label-slon:active{
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
