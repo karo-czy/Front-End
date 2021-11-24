@@ -77,9 +77,11 @@
 
 .footer{
     padding-top: 1cm;
+    display: flex;
+    justify-content: flex-end;
 }
 .em{
     font-size:2em;
-    float:right;
     color: red;
+    display: flex;
 }
