@@ -1,0 +1,68 @@
+*{box-sizing: border-box;}
+body{
+    margin:0;
+}
+.container{
+    border: 1px solid black;
+    position: relative;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cookies{
+    background-color: rgb(103, 204, 90); 
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zwierzeta{
+    background-color: rgb(163, 233, 194); 
+    position: sticky;
+    display: flex;
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+.container div{
+    border: 1px solid black;
+    min-height: 50px;
+} 
+.wrapper{
+    border: 1px solid black;
+    min-height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.wrapper div{
+    border: 1px solid black;
+    width: 35vw;
+    height: 35vw;
+}
+.footer{
+    border: 1px solid black;
+    position: fixed;
+    height: 3rem;
+    padding-top: 10px;
+    background-color: rgb(136, 172, 37);
+    bottom: 0;
+    width: 100%;
+}
+.footer a{
+    position: relative;
+}
+@media (max-width:720px){
+   .wrapper div{
+    width: 60vw;
+    height: 60vw;
+    margin-top: 10vw;
+}
+    .wrapper{
+        padding-bottom: 6rem;
+    }
+}
